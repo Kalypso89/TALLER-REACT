@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomeView from '../components/views/HomeView';
-import { CollectionView } from '../components/views/CollectionView';
-import {AboutView} from '../components/views/AboutView';
+import HomeView from '../components/pages/homePage/HomePage';
+import { CollectionView } from '../components/pages/collectionPage/CollectionPage';
+import {AboutView} from '../components/pages/aboutPage/AboutPage';
 
 const Router = () => {
   return (

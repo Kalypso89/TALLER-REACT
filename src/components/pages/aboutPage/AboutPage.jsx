@@ -1,4 +1,4 @@
-import { Button } from "../buttons/Button";
+import { Button } from "../../atoms/myButton/Button";
 import styles from "./aboutView.module.css"
 
 export function AboutView(){
